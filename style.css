@@ -3,22 +3,35 @@
     color: rgb(235, 181, 100);
 }
 .avatar {
-    position: absolute;
-    top: 20px;
-    left: 60%;
+    position: relative;
+    top: 0px;
+    left: 15%;
+    right: 15%
     border: 2px solid rgba(0, 0, 0, 0.63);
     border-radius: 10px;
           
 }
 
+.left-column {
+    background-color:dimgrey ;
+    vertical-align:top;
+    width: 30%;
+}
+
+.right-column {
+    vertical-align:top;
+    width: 70%;
+}
+
+
 code {
     font-size: 150%;
-    color:chartreuse
+    color:chartreuse;
 }
 
 body {
-    width: 50%;
-    margin-left: 25%;
+    width: 70%;
+    margin-left: 15%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     }
 
@@ -42,8 +55,9 @@ a {
 }
 
 .footer-link {
+    display: inline;
     position: relative;
-    float: right;
+    float: center;
     }
 
 .footer-date {
