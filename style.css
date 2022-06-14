@@ -1,0 +1,71 @@
+.background {
+    background-color: rgba(69, 73, 78);
+    color: rgb(235, 181, 100);
+}
+.avatar {
+    position: relative;
+    top: 0px;
+    left: 15%;
+    right: 15%
+    border: 2px solid rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+          
+}
+
+.left-column {
+    background-color:dimgrey ;
+    vertical-align:top;
+    width: 30%;
+}
+
+.right-column {
+    vertical-align:top;
+    width: 70%;
+}
+
+
+code {
+    font-size: 150%;
+    color:chartreuse;
+}
+
+body {
+    width: 70%;
+    margin-left: 15%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+
+aside {
+    width: 50%;
+    margin-left: 0%;
+}
+
+a {
+    color: aqua;
+}
+
+.announcement {
+    font-weight: bold;
+    text-decoration:underline;
+}
+
+.headings {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.footer-link {
+    display: inline;
+    position: relative;
+    float: center;
+    }
+
+.footer-date {
+    position: relative;
+    float: right;
+    }
+
+.footer-rsschool {
+    position: relative;
+    float: center;
+}
